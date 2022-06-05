@@ -1,15 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>My Personal Website</title>
-</head>
-<body>
-    <h1>Hello World!</h1>
+    <title>Vertical Slider</title>
+  </head>
+  <body>
 
-    <script src="script.js"></script>
-</body>
+    <div class="slider-container">
+      <div class="left-slide" >
+        <h1>KA.org</h1>
+        <p>Software Developer/Website Maker.
+            Content Creator.</p>
+            <p>Hi. I'm Kenneth Albert...
+            I'm a software developer / programmer, 
+            and content creator. </p>
+
+            <i class="fab fa-linkedin-in fa-3x"></i>
+            <i class="fab fa-facebook-f fa-3x"></i>
+            <i class="fab fa-twitter fa-3x"></i>
+            <i class="fa fa-phone fa-3x"  aria-hidden="true"></i>
+            
+
+      </div>
+      <div class="right-slide" >
+        <div id="about" style="background-image: url(./images/showcase-1.jpg);">
+       <h1>About</h1>
+       <p>About me? nothing much</p>
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+         Quisquam, sunt debitis quo, eveniet soluta hic molestiae vitae placeat, eos</p>
+  
+        </div>
+        <div style="background-image: url(./images/showcase-3.jpg)">Projects</div>
+        <div style="background-image: url(./images/showcase-4.jpg)">Contacts</div>
+      </div>
+      <div class="action-buttons">
+        <button class="down-button">
+          <i class="fas fa-arrow-down"></i>
+        </button>
+        <button class="up-button">
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
 </html>

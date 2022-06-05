@@ -82,6 +82,12 @@ text-decoration: underline;
     padding-right:40px;
   }
   
+  .right-slide  #projects p{
+    padding-top:40px;
+
+  }
+
+
   .right-slide  #contacts i:hover{
     color: orangered;
   }

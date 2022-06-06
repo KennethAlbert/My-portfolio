@@ -75,7 +75,12 @@ text-decoration: underline;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   }
 
-  
+  .right-slide  #about p{
+    font-style:italic;
+
+  }
+
+
   .right-slide  #contacts i{
     justify-content: center;
     padding-top:100px;
@@ -84,7 +89,7 @@ text-decoration: underline;
   
   .right-slide  #projects p{
     padding-top:40px;
-
+    font-style: italic;
   }
 
 
